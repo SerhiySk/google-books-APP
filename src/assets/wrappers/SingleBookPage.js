@@ -63,6 +63,7 @@ const Wrapper = styled.div`
   img {
     object-fit: contain;
     vertical-align: bottom;
+    position: relative;
   }
   .section-img {
     width: 100%;
@@ -82,7 +83,6 @@ const Wrapper = styled.div`
     width: 50vw;
     height: 100%;
     box-sizing: border-box;
-    z-index: 1;
 
     box-shadow: var(--neumorphismBoxShadowPop);
     display: block;
